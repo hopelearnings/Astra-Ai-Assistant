@@ -35,7 +35,7 @@ body {
 
 
 .chat-container {
-  width: 400px;
+  width: 90%;
   height: 600px;
   background: #fff;
   border-radius: 8px;
@@ -47,7 +47,7 @@ body {
 }
 
 .chat-header {
-  background-color: #007bff;
+  background-color: #002f61;
   color: #fff;
   padding: 10px 15px;
   font-size: 18px;
@@ -58,9 +58,10 @@ body {
   flex: 1;
   padding: 15px;
   overflow-y: auto;
-  background-image: url("https://i.imgur.com/5kVuE6T.png");
+  background-image: url("robot.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .message {
