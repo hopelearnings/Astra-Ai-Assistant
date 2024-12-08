@@ -58,7 +58,7 @@ body {
   flex: 1;
   padding: 15px;
   overflow-y: auto;
-  background-image: url("robot.webp");
+  background-image: url("../img/robot.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

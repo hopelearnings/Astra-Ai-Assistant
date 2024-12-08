@@ -41,7 +41,8 @@ async function getBotResponse(prompt) {
     method: "POST",
     headers: myHeaders,
     body: raw,
-    redirect: "follow"
+    redirect: "follow",
+    ModelID: "tunedModels/astra-health-9gl1utcfn1bm"
   };
 
   const response = await fetch(
